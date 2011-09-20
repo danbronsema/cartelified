@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "cartelified"
   gem.homepage = "http://github.com/galaxylord/cartelified"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Grab your Big Cartel product and get them into Rails}
+  gem.description = %Q{Big Cartel and Rails}
   gem.email = "danbronsema@gmail.com"
   gem.authors = ["Dan Bronsema"]
   # dependencies defined in Gemfile

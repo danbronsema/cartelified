@@ -1,7 +1,11 @@
 require 'helper'
+require 'HTTParty'
+require 'test/unit'
+require 'cartelified'
 
 class TestCartelified < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "should be able to connect to big cartel" do
+    asset_equal get('')
   end
+    
 end
