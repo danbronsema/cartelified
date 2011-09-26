@@ -26,7 +26,9 @@ module Cartelified
     products = []
     
     result.each do |product| 
-      if not product['artists'].find_all {|i| i['name'].downcase == artist.downcase }.empty?
+      if product['artists'].find_all {|i| i['name'].downcase == artist.downcase }.empty?
+        return products
+      else
         products << product
       end
     end
