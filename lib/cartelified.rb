@@ -23,6 +23,7 @@ module Cartelified
   protected
   def self.fetch_products(artist)
     result = get("/#{@id}/products.js", :headers => {'Accept' => 'application/json'})
+    return "Could not connect to server - #{result.response}" if result.code == 404
     products = []
     
     result.each do |product| 
