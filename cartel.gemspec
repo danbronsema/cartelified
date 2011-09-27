@@ -1,12 +1,12 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "cartel/version"
+require "cartelified/version"
 
 Gem::Specification.new do |s|
-  s.name        = "cartel"
-  s.version     = Cartel::VERSION
-  s.authors     = ["Matt Cordell"]
-  s.email       = ["matt@stripemedia.com.au"]
+  s.name        = "cartelified"
+  s.version     = Cartelified::VERSION
+  s.authors     = ["Dan Bronsema"]
+  s.email       = ["danbronsema@stripemedia.com.au"]
   s.homepage    = "http://www.stripemedia.com.au"
   s.summary     = %q{Intergrate BigCartel}
   s.description = %q{Intergrate BigCartel in Rails app}

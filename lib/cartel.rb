@@ -1,7 +1,7 @@
 require 'httparty'
 require 'uri'
 
-module Cartel
+module Cartelified
   include HTTParty
   base_uri "http://api.bigcartel.com"  
   headers 'Content-Type' => 'application/json' 
