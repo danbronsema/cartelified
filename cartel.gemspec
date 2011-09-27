@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Intergrate BigCartel}
   s.description = %q{Intergrate BigCartel in Rails app}
 
-  s.rubyforge_project = "cartel"
+  s.rubyforge_project = "cartelified"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
