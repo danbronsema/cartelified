@@ -1,9 +1,7 @@
-require 'rubygems'
-require 'HTTParty'
+require 'httparty'
 require 'uri'
 
-module Cartelified
-
+module Cartel
   include HTTParty
   base_uri "http://api.bigcartel.com"  
   headers 'Content-Type' => 'application/json' 
@@ -37,6 +35,5 @@ module Cartelified
   def self.fetch_store_details
     get("/#{@id}/products.js", :headers => {'Accept' => 'application/json'})
   end    
-  
   
 end
